@@ -1,4 +1,4 @@
-
+//In URL("https://ramenameld.com"), change it to URL(window.location.href) to view address of current tab opened URL.
 async function fetchData() {
     let domain = (new URL("https://ramenameld.com"));
     domain = domain.hostname;
